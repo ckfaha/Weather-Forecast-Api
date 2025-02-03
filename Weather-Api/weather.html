@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="all" id="weather-api">
+        <div class="sub">
+            <h2 id="ht">Enter Your Location</h2>
+            <input type="text" class="box" id="city-input"placeholder="City"><br>
+            <button type="submit" id="submit">Submit</button>
+            <div id="weather-info">
+                <h1 id="temperature">--°C</h1>
+                <h2 id="city-name">City Name</h2>
+                <div class="details">
+                    <p id="humidity">--% Humidity</p>
+                    <p id="wind-speed">--km/h Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>

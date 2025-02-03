@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(media/weather.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.sub{
+    width: 400px;
+    height:400px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(7, 9, 9);
+    background-image: url(media/background.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+
+}
+.box{
+    background-color: black;
+    color: aqua;
+    border: none;
+    border-radius: 5px;
+    width:200px;
+    height:30px;
+    padding:20px;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    letter-spacing: 1.5px;
+}
+#ht{
+color: aqua;
+font-size: 40px;
+font-weight: 600;
+
+}
+#submit{
+    background-color: black;
+    color: aqua;
+    width:100px;
+height: 40px;
+border: none;
+border-radius:10px;
+font-size: 14px;
+font-weight: 300;
+position: absolute;
+left: 35%;
+top:53%
+
+}
+#weather-info{
+   color: aqua;
+   
+   font-weight: 600;
+
+}
+.details{
+    color: aqua;
+   font-size: 20px;
+   margin-top: 180px;
+   font-weight: 600;
+}
+#temperature{
+    position: absolute;
+    margin-left: 10px;
+    color: deeppink;
+}
+#city-name{
+    margin-left: 200px;   
+    color: red;
+}
+#humidity{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    color:rgb(62, 62, 160)
+}
+#wind-speed{
+    margin-left: 150px;
+    padding-top: 10px;
+    color:gray
+}
